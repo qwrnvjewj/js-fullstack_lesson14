@@ -1,0 +1,52 @@
+body{
+  font-family:"Comic Sans MS", "Arial", sans-serif;
+  color:#6d4c41 !important;
+}
+
+.bg-primary{
+  background-color:#e3f2fd !important;
+}
+
+.navbar-nav .nav-link{
+  color:#6d4c41 !important;
+  -webkit-transition:background 0.2s, color 0.2s;
+  transition:background 0.2s, color 0.2s;
+  border-radius:8px;
+  margin:0 4px;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover{
+  background:#fff8dc;
+  color:#d2691e !important;
+}
+
+.dropdown-menu{
+  background:#fff8dc;
+}
+
+.dropdown-item{
+  color:#6d4c41;
+}
+
+.dropdown-item:hover{
+  background:#ffe4e1;
+  color:#d2691e;
+}
+
+.navbar-brand span{
+  font-size:1.3rem;
+  letter-spacing:1px;
+}
+
+.accordion-button{
+  color:#6d4c41;
+}
+
+.accordion-button:focus{
+  color:#6d4c41;
+}
+
+.accordion-body{
+  color:#6d4c41;
+}
